@@ -561,7 +561,7 @@ void WF_Connect(void)
 }   
 #endif /* WF_CS_TRIS */
 
-void LED_PUT(BYTE a);
+//void LED_PUT(BYTE a);
 void LED_PUT(BYTE a)
 {
 	LED0_IO = a & 0x01;
